@@ -16,6 +16,13 @@ A collection of Python-based Data Engineering projects focusing on ETL pipelines
 - Designed to stress-test data ingestion logic by generating random Cities, Products, and Prices.
 - Includes an **Analytics Dashboard** that calculates Total Revenue, Top Cities, and Best-Selling Categories.
 
+### 3. 🤖 MarketMood: Real-Time AI Sentiment Analysis
+**Tech Stack:** Python, Streamlit, TextBlob (NLP), Plotly, Pandas
+- A full-stack data application that processes live financial news feeds to gauge market sentiment.
+- **Data Pipeline:** Simulates streaming text data ingestion.
+- **AI/ML Engine:** Uses Natural Language Processing (TextBlob) to calculate polarity scores (Positive/Negative/Neutral) in real-time.
+- **Visualization:** Renders a live-updating interactive dashboard with moving averages and trend lines using Plotly and Streamlit Session State.
+
 ## 🚀 How to Run
 1. Clone the repository.
 2. Navigate to the project folder (e.g., `02_Ecommerce_Simulator`).
@@ -25,5 +32,6 @@ A collection of Python-based Data Engineering projects focusing on ETL pipelines
 
 4. Run the dashboard to see insights:
     python dashboard.py
+
 
     
