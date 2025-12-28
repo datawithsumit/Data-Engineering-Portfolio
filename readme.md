@@ -17,6 +17,7 @@ A collection of Python-based Data Engineering projects focusing on ETL pipelines
 - Includes an **Analytics Dashboard** that calculates Total Revenue, Top Cities, and Best-Selling Categories.
 
 ### 3. 🤖 MarketMood: Real-Time AI Sentiment Analysis
+![MarketMood Dashboard](03_Sentiment_Dashboard/marketmood_dashboard.png)
 **Tech Stack:** Python, Streamlit, TextBlob (NLP), Plotly, Pandas
 - A full-stack data application that processes live financial news feeds to gauge market sentiment.
 - **Data Pipeline:** Simulates streaming text data ingestion.
@@ -34,3 +35,4 @@ A collection of Python-based Data Engineering projects focusing on ETL pipelines
 4. Run the setup script to generate data:
    ```bash
    python setup_ecommerce.py
+
