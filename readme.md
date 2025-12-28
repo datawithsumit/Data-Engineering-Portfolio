@@ -36,17 +36,23 @@ A collection of Python-based Data Engineering projects focusing on ETL pipelines
 ---
 
 ## 🚀 How to Run
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/datawithsumit/Data-Engineering-Portfolio.git](https://github.com/datawithsumit/Data-Engineering-Portfolio.git)
-2. Navigate to a project (e.g., Sentiment Dashboard): cd 03_Sentiment_Dashboard
-3. Install Dependencies: pip install -r requirements.txt
-4. Run the specific project:
-    a.)  For MarketMood: streamlit run app.py
-    b.)  For Crypto V2: Ensure Airflow is running or run the script manually: python crypto_sniper.py
-    c.)  For E-Commerce: python setup_ecommerce.py
 
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/datawithsumit/Data-Engineering-Portfolio.git](https://github.com/datawithsumit/Data-Engineering-Portfolio.git)
-
+2. **Navigate to a project folder: (Example: Sentiment Dashboard)**
+   ```bash
+   cd 03_Sentiment_Dashboard
+3. **Install Dependencies:**
+   ```bash
+   pip install -r requirements.txt
+4. **Run the specific project:**
+   For MarketMood:
+         ```bash
+      streamlit run app.py
+    For Crypto V2 (Airflow): (Ensure Airflow is running, or run the script manually) 
+      ```bash
+      python crypto_sniper.py
+  For E-Commerce Simulator:
+   ```bash
+            python setup_ecommerce.py
