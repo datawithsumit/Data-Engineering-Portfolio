@@ -23,15 +23,14 @@ A collection of Python-based Data Engineering projects focusing on ETL pipelines
 - **AI/ML Engine:** Uses Natural Language Processing (TextBlob) to calculate polarity scores (Positive/Negative/Neutral) in real-time.
 - **Visualization:** Renders a live-updating interactive dashboard with moving averages and trend lines using Plotly and Streamlit Session State.
 
+
 ## 🚀 How to Run
 1. Clone the repository.
 2. Navigate to the project folder (e.g., `02_Ecommerce_Simulator`).
 3. Run the setup script to generate data:
    ```bash
    python setup_ecommerce.py
-
-4. Run the dashboard to see insights:
-    python dashboard.py
-
-
-    
+4. Run the dashboard to see insights: python dashboard.py
+4. Run the setup script to generate data:
+   ```bash
+   python setup_ecommerce.py
