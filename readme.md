@@ -4,13 +4,14 @@ A collection of Python-based Data Engineering projects focusing on ETL pipelines
 
 ## 📂 Projects
 
-### 1. 📈 Crypto Sniper Bot
+### 1. 📈 Crypto Sniper Bot (Basic)
 **Tech Stack:** Python, SQLite, CoinGecko API, Pandas
-- A real-time data ingestion pipeline that fetches live Bitcoin & Ethereum prices every 10 seconds.
+- A foundational ETL script that fetches live Bitcoin & Ethereum prices every 10 seconds.
+- Uses a simple `while` loop with `time.sleep()` for scheduling.
 - Stores raw logs in a structured SQL database.
-- Performs basic analytics to calculate the BTC/ETH price ratio.
 
 ### 2. 🛒 E-Commerce Data Simulator
+![E-Commerce Analytics](02_Ecommerce_Simulator/ecommerce_analytics.png)
 **Tech Stack:** Python, Random (Simulation), Pandas, SQLite
 - A synthetic data generator that simulates 1,000+ customer orders for a fake retail store.
 - Designed to stress-test data ingestion logic by generating random Cities, Products, and Prices.
@@ -24,15 +25,27 @@ A collection of Python-based Data Engineering projects focusing on ETL pipelines
 - **AI/ML Engine:** Uses Natural Language Processing (TextBlob) to calculate polarity scores (Positive/Negative/Neutral) in real-time.
 - **Visualization:** Renders a live-updating interactive dashboard with moving averages and trend lines using Plotly and Streamlit Session State.
 
+### 4. 🚀 Crypto Sniper V2 (Airflow Pipeline)
+![Bitcoin Price Trend](04_Crypto_Sniper_V1/crypto_price_trend.png)
+**Tech Stack:** Apache Airflow, Python, SQLite, Matplotlib, Pandas
+- An advanced version of the Crypto Sniper, orchestrated using **Apache Airflow DAGs**.
+- **Orchestration:** Automates the extraction and loading process on a strict schedule.
+- **Visualization:** Includes a specialized script (`visualize_crypto.py`) that generates trend graphs from the database.
+- **Data Quality:** Implements robust error handling and API rate-limit management.
+
+---
 
 ## 🚀 How to Run
-1. Clone the repository.
-2. Navigate to the project folder (e.g., `02_Ecommerce_Simulator`).
-3. Run the setup script to generate data:
+1. **Clone the repository:**
    ```bash
-   python setup_ecommerce.py
-4. Run the dashboard to see insights: python dashboard.py
-4. Run the setup script to generate data:
-   ```bash
-   python setup_ecommerce.py
+   git clone [https://github.com/datawithsumit/Data-Engineering-Portfolio.git](https://github.com/datawithsumit/Data-Engineering-Portfolio.git)
+2. Navigate to a project (e.g., Sentiment Dashboard): cd 03_Sentiment_Dashboard
+3. Install Dependencies: pip install -r requirements.txt
+4. Run the specific project:
+    a.)  For MarketMood: streamlit run app.py
+    b.)  For Crypto V2: Ensure Airflow is running or run the script manually: python crypto_sniper.py
+    c.)  For E-Commerce: python setup_ecommerce.py
 
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/datawithsumit/Data-Engineering-Portfolio.git](https://github.com/datawithsumit/Data-Engineering-Portfolio.git)
