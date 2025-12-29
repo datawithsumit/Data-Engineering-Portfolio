@@ -5,9 +5,9 @@ import time
 from datetime import datetime, timedelta
 
 # --- 1. CONFIGURATION (FILL THESE IN!) ---
-SNOWFLAKE_USER = "SumitDev"
-SNOWFLAKE_PASSWORD = "SumitShinde@2004"
-SNOWFLAKE_ACCOUNT = "NXVXIAE-EW40030"  # e.g. xy12345.us-east-1
+SNOWFLAKE_USER = "YOUR_USERNAME_HERE"
+SNOWFLAKE_PASSWORD = "YOUR_PASSWORD_HERE"
+SNOWFLAKE_ACCOUNT = "YOUR_ACCOUNT_ID_HERE"  # e.g. xy12345.us-east-1
 
 # --- 2. DATA GENERATION LOGIC (Same as before) ---
 def generate_fake_data(num_records=100):
