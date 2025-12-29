@@ -1,6 +1,6 @@
 # 🐍 Python Data Engineering Portfolio
 
-A collection of Python-based Data Engineering projects focusing on ETL pipelines, automation, and data simulation.
+A collection of Python-based Data Engineering projects focusing on ETL pipelines, automation, cloud warehousing, and data simulation.
 
 ## 📂 Projects
 
@@ -18,7 +18,7 @@ A collection of Python-based Data Engineering projects focusing on ETL pipelines
 - Includes an **Analytics Dashboard** that calculates Total Revenue, Top Cities, and Best-Selling Categories.
 
 ### 3. 🤖 MarketMood: Real-Time AI Sentiment Analysis
-![MarketMood Dashboard](03_Sentiment_Dashboard/MarketMood_AI_Dashboard.png)
+![MarketMood Dashboard](03_Sentiment_Dashboard/marketmood_dashboard.png)
 **Tech Stack:** Python, Streamlit, TextBlob (NLP), Plotly, Pandas
 - A full-stack data application that processes live financial news feeds to gauge market sentiment.
 - **Data Pipeline:** Simulates streaming text data ingestion.
@@ -33,9 +33,25 @@ A collection of Python-based Data Engineering projects focusing on ETL pipelines
 - **Visualization:** Includes a specialized script (`visualize_crypto.py`) that generates trend graphs from the database.
 - **Data Quality:** Implements robust error handling and API rate-limit management.
 
+### 5. ❄️ E-Commerce Pipeline V2 (Snowflake Edition)
+**Tech Stack:** Python, Snowflake (Cloud DW), Docker, Pandas
+
+| **Raw Data Ingestion** | **Cloud Analytics** |
+|:---:|:---:|
+| ![Raw Data](05_Ecommerce_Snowflake_V2/snowflake_data_preview.png) | ![Sales Trends](05_Ecommerce_Snowflake_V2/snowflake_analytics.png) |
+
+- **Enterprise Upgrade:** Migrated the local ETL pipeline to load synthetic sales data directly into **Snowflake** (Cloud Data Warehouse).
+- **Cloud Architecture:** Implements a scalable batch insert strategy for handling large datasets in the cloud.
+- **Analytics Ready:** Verified data integrity with SQL aggregations and utilized Snowflake's built-in visualization tools for reporting.
+
 ---
 
 ## 🚀 How to Run
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/datawithsumit/Data-Engineering-Portfolio.git](https://github.com/datawithsumit/Data-Engineering-Portfolio.git)
+   ## 🚀 How to Run
 
 1. **Clone the repository:**
    ```bash
@@ -53,6 +69,12 @@ A collection of Python-based Data Engineering projects focusing on ETL pipelines
     For Crypto V2 (Airflow): (Ensure Airflow is running, or run the script manually) 
       ```bash
       python crypto_sniper.py
-  For E-Commerce Simulator:
+      ```
+    For E-Commerce Simulator:
+      ```bash
+      python setup_ecommerce.py
+      ```
+   For E-Commerce V2 (Snowflake): (Requires Snowflake credentials)
    ```bash
-            python setup_ecommerce.py
+   python main.py
+   ```
