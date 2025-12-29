@@ -26,7 +26,7 @@ A collection of Python-based Data Engineering projects focusing on ETL pipelines
 - **Visualization:** Renders a live-updating interactive dashboard with moving averages and trend lines using Plotly and Streamlit Session State.
 
 ### 4. 🚀 Crypto Sniper V2 (Airflow Pipeline)
-![Bitcoin Price Trend](04_Crypto_Sniper_V1/crypto_price_trend.png)
+![Bitcoin Price Trend](04_Crypto_Sniper_V2/crypto_price_trend.png)
 **Tech Stack:** Apache Airflow, Python, SQLite, Matplotlib, Pandas
 - An advanced version of the Crypto Sniper, orchestrated using **Apache Airflow DAGs**.
 - **Orchestration:** Automates the extraction and loading process on a strict schedule.
@@ -78,4 +78,5 @@ A collection of Python-based Data Engineering projects focusing on ETL pipelines
    ```bash
    python main.py
    ```
+
 
