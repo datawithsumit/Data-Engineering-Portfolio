@@ -1,4 +1,4 @@
-# 🐍 Python Data Engineering Portfolio
+# 🐍 Python Development Portfolio
 
 A collection of Python-based Data Engineering projects focusing on ETL pipelines, automation, cloud warehousing, and data simulation.
 
@@ -82,3 +82,4 @@ A collection of Python-based Data Engineering projects focusing on ETL pipelines
    docker build -t snowflake-ecommerce .
    docker run snowflake-ecommerce
    ```
+
