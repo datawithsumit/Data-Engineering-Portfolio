@@ -11,7 +11,6 @@ A collection of Python-based Data Engineering projects focusing on ETL pipelines
 - Stores raw logs in a structured SQL database.
 
 ### 2. 🛒 E-Commerce Data Simulator
-![E-Commerce Analytics](02_Ecommerce_Simulator/ecommerce_analytics.png)
 **Tech Stack:** Python, Random (Simulation), Pandas, SQLite
 - A synthetic data generator that simulates 1,000+ customer orders for a fake retail store.
 - Designed to stress-test data ingestion logic by generating random Cities, Products, and Prices.
@@ -82,5 +81,6 @@ A collection of Python-based Data Engineering projects focusing on ETL pipelines
    docker build -t snowflake-ecommerce .
    docker run snowflake-ecommerce
    ```
+
 
 
